@@ -1,0 +1,79 @@
+ 
+<html>
+  <head>
+    <title>Hand gestures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+<h3 class="btn btn-warning">Hand gestures
+  <br>
+  <span> &#128400;</span>
+  <span>&#9994;</span>
+  <span>&#9996;</span>
+  <span>&#9995;</span>
+  <span>&#128077;</span>
+  <span>&#128076;</span>
+</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">Let's see your hand gestures
+        <br>
+        <b style="color: black">find the following gestures here</b>
+        <br>
+        <b style="color: red">👍|✌️|👌</b>
+
+      <br>
+        <b>Let's find out </b>
+        <br>
+
+      </p>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Webcam-View - </label>
+        <br><br>
+<div id="camera">
+  
+</div>
+<br>
+
+<button class="Capture"onclick="capture()">Capture Image</button>
+      </div>
+      <Div class="col-md-4 col-sm-12 col-xs-12"><label>Prediction</label>
+      <H4 id="result_emotion_name">
+
+      </H4>
+    <h4 class="emoji"id="emoji">
+
+    </h4></Div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Snapshot - </label>
+        <br><br>
+<div id="result">
+  
+</div>
+<br>
+<button class="Capture"onclick="predict()">Predict gesture</button>
+      </div>
+
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

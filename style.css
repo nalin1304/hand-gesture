@@ -1,0 +1,43 @@
+body
+{
+  color: white;
+  background-color: skyblue;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name 
+{
+  color: black;
+  font-size: 40px;
+}
+
+.emoji
+{
+  font-size:48px;
+}
+.btn-warning{
+  border-radius: 20px;
+  color: lightgoldenrodyellow;
+  background-color: lightcoral;
+  letter-spacing: 15px;
+}
+.Capture{
+  background-image: linear-gradient( Lightcoral, lightgoldenrodyellow);
+  border-radius: 10px;
+  color:black;
+}
+label{
+  font-size: 15px;
+  color:lightgoldenrodyellow;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: lightcoral;
+}
